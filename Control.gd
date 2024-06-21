@@ -4,12 +4,10 @@ extends Control
 
 
 func _on_play_pressed():
-	pass # Replace with function body.
+	get_tree().change_scene_to_file("res://Scenes/Main_Game.tscn")
 
 
 func _on_options_pressed():
-	pass # Replace with function body.
-
 
 func _on_quit_pressed():
-	get.tree.quit()
+	get_tree().quit()
